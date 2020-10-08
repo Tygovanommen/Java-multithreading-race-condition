@@ -4,7 +4,7 @@ Deze repository is een simpele proof of concept van race conditions met twee opl
 
 ## Proof of concept
 
-<img align="right" alt="Deadlock image" src="https://github.com/Tygovanommen/Java-multithreading-race-condition/blob/main/deadlock.jpg">
+<img align="right" alt="Deadlock image" width="300" src="https://github.com/Tygovanommen/Java-multithreading-race-condition/blob/main/deadlock.jpg">
 
 Een voorbeeld waar ik de synchronize oplossing heb toegepast is bij mijn chat room applicatie:<br>
 [Java-socket-chatroom/chatController.java](https://github.com/Tygovanommen/Java-socket-chatroom/blob/master/user/src/guis/chatController.java)
