@@ -11,10 +11,10 @@ Daarnaast heb ik ook nog een proof of concept test gemaakt voor Java multithread
 
 ## Onderzoek Multithreading
 
+<img align="right" alt="Deadlock image" src="https://github.com/Tygovanommen/Java-multithreading-race-condition/blob/main/deadlock.jpg">
+
 ### Wat is multithreading?
-<div align="right">
-  <img alt="Deadlock image" src="https://github.com/Tygovanommen/Java-multithreading-race-condition/blob/main/deadlock.jpg">
-</div>
+
 Multithreading geeft je de mogelijkheid om meerdere processen tegelijk te laten uitvoeren om de CPU maximaal te gebruiken. 
 Er zijn verschillende kleinere threads die samen tegelijk de CPU-geheugen gebruiken.
 Het is een soort van multitasken van processen. 
