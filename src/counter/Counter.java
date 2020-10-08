@@ -9,10 +9,10 @@ public class Counter {
     }
 
     public void addCount() {
-        if (Tester.type == 1) {
+        if (Tester.isRaceCon) {
             // Because threads are running at the same time result will be unexpected
             this.count++;
-        } else if (Tester.type == 2) {
+        } else {
             // Synchronizing makes the count go one by one. It will wait for other add() actions
             synchronized (this) {
                 this.count++;

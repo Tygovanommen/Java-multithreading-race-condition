@@ -3,13 +3,13 @@ package counter;
 public class Tester {
 
     // Make race condition static so it can be accessed everywhere
-    public static int type;
+    public static boolean isRaceCon;
 
     /**
      * Simulates a multithreading race condition problem
      */
-    public void raceCondition(int testType) {
-        type = testType;
+    public void raceCondition(boolean isRaceCondition) {
+        isRaceCon = isRaceCondition;
 
         // Initialize Counter object
         Counter counter = new Counter(0);
