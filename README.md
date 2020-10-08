@@ -9,6 +9,8 @@ Een voorbeeld waar ik de synchronize oplossing heb toegepast is bij mijn chat ro
 Daarnaast heb ik ook nog een proof of concept test gemaakt voor Java multithreading:<br>
 [Multi-threaded-tasks](https://github.com/Tygovanommen/multi-threaded-tasks)
 
+<div>
+
 ## Onderzoek Multithreading
 
 <img align="right" alt="Deadlock image" src="https://github.com/Tygovanommen/Java-multithreading-race-condition/blob/main/deadlock.jpg">
@@ -18,6 +20,9 @@ Daarnaast heb ik ook nog een proof of concept test gemaakt voor Java multithread
 Multithreading geeft je de mogelijkheid om meerdere processen tegelijk te laten uitvoeren om de CPU maximaal te gebruiken. 
 Er zijn verschillende kleinere threads die samen tegelijk de CPU-geheugen gebruiken.
 Het is een soort van multitasken van processen. 
+
+</div>
+<div>
 
 ### Wanneer gebruik je meerdere threads?
 
@@ -54,3 +59,4 @@ Wat je kunt doen is je threads stap voor stap processen laten uitvoeren
 De beste oplossing is om jee software zo stateless mogelijk maken. 
 Maak je methodes niet gevoelig voor de staat van je programma.
 Alle gegevens die je wilt gebruiken in je methode moeten doorgegeven worden als input en teruggegeven worden als uitvoer.
+<div>
