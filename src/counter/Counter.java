@@ -1,0 +1,27 @@
+package counter;
+
+public class Counter {
+
+    private int count;
+
+    public Counter(int defaultCount) {
+        this.count = defaultCount;
+    }
+
+    public void addCount() {
+        if (Tester.type == 1) {
+            // Because threads are running at the same time result will be unexpected
+            this.count++;
+        } else if (Tester.type == 2) {
+            // Synchronizing makes the count go one by one. It will wait for other add() actions
+            synchronized (this) {
+                this.count++;
+            }
+        }
+    }
+
+    public int getCount() {
+        return this.count;
+    }
+
+}
